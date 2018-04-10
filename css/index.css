@@ -1,0 +1,57 @@
+body{
+    position: relative;
+    background-color: #333030;
+}
+#pen{
+    width: 58px;
+    height: 50px;
+    position: absolute;
+    background:url('../img/pen.png') center center;
+}
+#clear{
+    width: 80%;
+    height: 60px;
+    font-size: 30px;
+    color: #000;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    top: 450px;
+    border-radius: 20px;
+    border-color:white;
+    z-index: 11;
+    box-shadow: inset 0 3px 20px #0e0e0e;
+    text-align: center;
+    line-height: 60px;
+    font-weight:900;
+}
+#clear_btn{
+    display: block;
+    width: 100px;
+    height: 100%;
+    border:1px solid white;
+    border-radius: 20px;
+    box-shadow: 0 3px 15px #888888 inset;
+    position: absolute;
+}
+#title{
+    display: block;
+    position: absolute;
+    font-size:35px;
+    font-weight:900;
+    left:41%;
+    top: 410px;
+    color: #040192;
+    user-select:none;
+}
+
+svg{
+    position: absolute;
+    width: 60%;
+    height: 400px;
+    top:10px;
+    left: 50%;
+    margin-left:-40%;
+    z-index: -1;
+
+}

@@ -1,0 +1,234 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.contain{
+    height: 300px;
+    background-color: #333030;
+}
+.nav_text p{
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    font-size: 45px;
+    top:190px;
+    text-align: center;
+    z-index: 999;
+}
+.imgLogo{
+     position: absolute;
+     left:50%;
+     top:80px;
+     margin-left:-70px;
+     animation:move 0.5s ease;
+ }
+@keyframes move{
+    0% {top:90px}
+    25% {top:80px}
+    50% {top:90px}
+    75% {top:80px}
+    100% {top:90px}
+}
+
+.wrapper{
+    height: 80px;
+    line-height: 80px;
+    position: relative;
+    display: none;
+}
+body{
+    background:url(../img/bg2.png);
+}
+
+/*导航左边*/
+
+.logo,.nac_clock,.nav ul{
+    overflow: hidden;
+}
+.logo{
+    display: block;
+    font-size:30px;
+    font-weight:bold;
+    line-height: 80px;
+    top: 26px;
+    width: 260px;
+    height: 80px;
+    left: 0;
+    margin: 0;
+    color: white;
+}
+.nav_clock{
+    width: 192px;
+    height: 35px;
+    position: absolute;
+    left: 280px;
+    overflow: hidden;
+}
+.nav_clock li {
+    width: 24px;
+    float: left;
+    height: 35px;
+    position: relative;
+    overflow: hidden;
+}
+.nav_clock li.num {
+    width: 18px;
+}
+.nav_clock li img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+/*导航右边列表*/
+
+.nav,.nav ul{
+    width: 300px;
+    height: 40px;
+    top: 0;
+    position: absolute;
+    float: left;
+}
+.nav{
+    left:830px;
+    margin-top: 20px;
+}
+.nav  ul{
+    left: 0;
+    z-index: 1;
+    list-style: none;
+}
+.nav ul li{
+    float: left;
+    height: 100%;
+    width: 72px;
+    font-size:16px;
+    line-height: 40px;
+    padding: 0 20px;
+    color: white;
+}
+.nav ul li a{
+    color: white;
+    height: 100%;
+    font: 16px 'microsoft yahei',Arial,serif;
+    font-weight: 700;
+}
+/*导航栏切换后的css*/
+.slide_bg{
+    display: block;
+    width: 72px;
+    height: 40px;
+    background-color: #0f0f0f;
+    position: absolute;
+}
+.current{
+    color: white;
+}
+/*大文字*/
+.css_js {
+    padding-top: 10px;
+    font-family: 'Open Sans',Arial,serif;
+    font-weight: 800;
+    color: #a2962a;
+    font-size: 90px;
+    text-transform: uppercase;
+    height: 150px;
+    line-height: 100px;
+    text-align: center;
+}
+.css_js span{
+    font-style: italic;
+    color: #333030;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 70px;
+}
+/*中间内容*/
+.content{
+    width: 1000px;
+    margin:0 auto;
+    margin-top: 320px;
+    padding-top: 50px;
+    position: relative;
+}
+.works{
+    float: right;
+}
+/*页面云彩设置*/
+.cloud{
+    position: relative;
+    transition: transform 2s;
+    margin-top:50px;
+}
+.cloud img{
+    width: 280px;
+    height: 165px;
+}
+.cloud p{
+    position: absolute;
+    top: 75px;
+    left: 50px;
+    text-align: center;
+    color: #333030;
+    font-size: 32px;
+    font-weight: 800;
+}
+.cloud .int{
+    color: #A2962A;
+    font-weight: 400;
+    font-style: italic;
+    font-family: Georgia,serif;
+    font-size: 40px;
+}
+.introduce,.works{
+    display: inline-block;
+    width: 280px;
+    height: 200px;
+}
+
+.cloud:hover{
+    transform: rotateY(360deg);
+}
+/*云彩下面文字*/
+.bottom{
+    display: block;
+    width: 280px;
+    margin-top:20px;
+}
+.bottom_txt{
+    width: 160px;
+    height: 40px;
+    color: white;
+    font-size:20px;
+    line-height: 40px;
+    border-radius: 20px;
+    background-color: rgb(54, 210, 84);
+    text-align: center;
+    margin:0 auto;
+    transition: backgroundColor 1s;
+}
+.bottom_txt:hover{
+    background-color: #0f0f0f;
+}
+
+.img_logo{
+    background: url("../img/logo.png");
+    width: 667px;
+    height:123px;
+    position: absolute;
+    left:50%;
+    transform:translate(-50%,0);
+    margin-top:-250px;
+}
+.img_logoLast{
+    background: url("../img/logo.png");
+    width: 488px;
+    height:123px;
+    background-position: center right;
+    position: absolute;
+    left:50%;
+    transform:translate(-50%,0);
+    margin-top:-110px;
+}

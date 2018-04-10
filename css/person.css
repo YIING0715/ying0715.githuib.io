@@ -1,0 +1,250 @@
+.nav li,.wrapper {
+    position: relative
+}
+
+.main_t,.want,.wrapper {
+    margin: 0 auto
+}
+
+.wrapper {
+    width: 1000px
+}
+
+section {
+    width: 100%
+}
+
+body {
+    overflow-x: hidden;
+    background: #1c1c1c
+}
+.logo{
+    display: block;
+    font-size:30px;
+    font-weight:bold;
+    line-height: 80px;
+    top: 26px;
+    width: 260px;
+    height: 80px;
+    left: 0;
+    margin: 0;
+}
+.hd {
+    background: url(../img/1-bg-platform.jpg) center 0 fixed;
+    height: 700px
+}
+.imgLogo{
+    position: absolute;
+    left:80px;
+    top:10px;
+    width: 100px;
+    height: 60px;
+}
+
+.logo a {
+    display: block;
+    font-size:30px;
+    font-weight:bold;
+    line-height: 80px;
+    top: 26px;
+    width: 260px;
+    height: 80px;
+    left: 0;
+    margin: 0;
+}
+
+.nav {
+    width: 330px;
+    padding-top: 40px
+}
+
+.nav li {
+    float: left;
+    padding: 0 16px
+}
+
+.my_person span,.nav li span,.object,.web_com {
+    position: absolute
+}
+
+.nav li span {
+    height: 4px;
+    background: #ffc10e;
+    width: 0;
+    left: 8px;
+    opacity: .8;
+    filter: alpha(opacity:80);
+    top: 25px;
+    -webkit-transition: 1s all ease;
+    -moz-transition: 1s all ease;
+    -ms-transition: 1s all ease;
+    -o-transition: 1s all ease;
+    transition: 1s all ease
+}
+
+.nav li a {
+    color: #fff;
+    font-size: 16px;
+    font-family: '微软雅黑';
+    font-weight: 700
+}
+
+.main_t,.nav li:hover a {
+    color: #ffc10e
+}
+
+.nav li:hover span {
+    width: 48px
+}
+
+.main_t {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 48px;
+    width: 600px;
+    text-align: center;
+    display: block;
+    padding-top: 130px
+}
+
+.resume,.want,.downResume {
+    font-size: 16px;
+    color: rgba(255,255,255,.9);
+    font-weight: 400;
+    text-align: center;
+    display: block
+}
+
+.want {
+    padding-top: 30px;
+    width: 400px;
+    line-height: 32px;
+}
+
+.resume,.downResume{
+    line-height: 30px;
+    width: 80px;
+    height: 30px;
+    border: 1px dashed black;
+    margin: 20px auto 0;
+    font-weight: 900;
+    color: rgba(10, 4, 11, 0.9);
+    float: left;
+    position: absolute;
+}
+.resume{
+    left: 40%;
+}
+.downResume{
+    left:56%;
+}
+.my_person {
+    height: 700px;
+    background: center 0 fixed #1e1e1e;
+    overflow: hidden
+}
+
+.my_person h2 {
+    font-size: 40px;
+    padding-top: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    color: #79b6af;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    display: block
+}
+
+.my_person span {
+    width: 473px;
+    height: 870px
+}
+
+.my_per_bg {
+    background: url(../img/2-right.png) no-repeat;
+    background-size: 338px  680px;
+    top: 99px;
+    right:30px;
+}
+
+.my_per_ct {
+    left: 120px;
+    top: 200px
+}
+
+.object {
+    width: 374px;
+    height: 450px;
+    left: 30px;
+    top: -80px;
+    background: url(../img/my_per.png) no-repeat;
+    background-size: 100%
+}
+
+.front_int {
+    height: 700px;
+    background: url(../img/home-ilu.png) center 0 no-repeat fixed;
+    background-size: 100%;
+    position: relative
+}
+
+.web_com {
+    left: 0;
+    top: 0;
+}
+
+.front_font,.front_int h2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.front_int{
+
+}
+.front_int h2 {
+    font-size: 48px;
+    color: rgba(255,255,255,.9);
+    font-weight: 600;
+    top: 120px;
+    color: #46a6ff;
+}
+
+.front_font{
+    padding-top: 10px;
+    font-size: 16px;
+    top: 180px;
+    color: #333;
+}
+
+.ex_font,.ex_tit {
+    position: absolute;
+    left: 160px;
+}
+
+.ex_font p,.front_font p {
+    line-height: 36px;
+    text-align: left;
+}
+
+.experience {
+    height: 700px;
+    
+}
+
+.ex_tit {
+    font-size: 48px;
+    color: rgba(255,255,255,.9);
+    font-weight: 600;
+    top: 100px;
+}
+
+.ex_font {
+    padding-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    top: 180px;
+}
+.titleT{
+    font-size: 22px;
+}

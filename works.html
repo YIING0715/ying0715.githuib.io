@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        #box{
+            position:fixed;
+            left:0;
+            bottom:0;
+            width:100%;
+            text-align:center;
+        }
+        #box>img{
+            margin-left:20px;
+        }
+        #img{
+            position: absolute;
+            width: 1024px;
+            background: url("works/11.jpg");
+            left: 50%;
+            margin-left:-512px;
+            z-index:-99;
+        }
+        #back{
+            position: fixed;
+            left:90%;
+            background: #000;
+            width: 22px;
+            height: 86px;
+            text-decoration: none;
+            text-align: center;
+        }
+        #back:visited{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div id='box'>
+    <img src="works/logo/1.png" alt="">
+    <img src="works/logo/2.png" alt="">
+    <img src="works/logo/3.png" alt="">
+    <img src="works/logo/4.png" alt="">
+    <img src="works/logo/5.png" alt="">
+    <img src="works/logo/6.png" alt="">
+    <img src="works/logo/7.png" alt="">
+    <img src="works/logo/8.png" alt="">
+    <img src="works/logo/9.png" alt="">
+<img src="works/logo/10.png" alt="">
+</div>
+<div id="img">
+    <img src="works/1.jpg" alt="">
+</div>
+<a href="index.html" id="back">返回首页</a>
+</body>
+</html>
+<script>
+    var box = document.getElementById('box');
+    var img = document.getElementById('img');
+    var imgs= box.children;
+    document.onmousemove= function (e) {
+        var evt = e||event;
+        for( i in imgs){
+            var a = box.offsetLeft+imgs[i].offsetLeft+imgs[i].offsetWidth/2-evt.clientX;
+            var b = box.offsetTop+imgs[i].offsetTop+imgs[i].offsetHeight/2-evt.clientY;
+            var c = Math.sqrt(a*a+b*b);
+            var scale = 1-c/900;
+            if(scale<0.5){
+                scale=0.5;
+            }
+            imgs[i].width=scale*130;
+        }
+    };
+    for(let i = 0;i<imgs.length;i++){
+        imgs[i].onclick=function(){
+            var num= Number(i)+1;
+           
+            console.log(num);
+            img.innerHTML='';
+            img.innerHTML='<img src="works/'+num+'.jpg" alt="">';
+        }
+    }
+</script>
