@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>作品展示</title>
     <style>
         *{
             margin:0;
@@ -21,7 +21,6 @@
         #img{
             position: absolute;
             width: 1024px;
-            background: url("works/11.jpg");
             left: 50%;
             margin-left:-512px;
             z-index:-99;
@@ -42,19 +41,15 @@
 </head>
 <body>
 <div id='box'>
-    <img src="works/logo/1.png" alt="">
-    <img src="works/logo/2.png" alt="">
-    <img src="works/logo/3.png" alt="">
-    <img src="works/logo/4.png" alt="">
-    <img src="works/logo/5.png" alt="">
-    <img src="works/logo/6.png" alt="">
-    <img src="works/logo/7.png" alt="">
-    <img src="works/logo/8.png" alt="">
-    <img src="works/logo/9.png" alt="">
-<img src="works/logo/10.png" alt="">
+    <img src="works/logo/01.png" alt="">
+    <img src="works/logo/02.png" alt="">
+    <img src="works/logo/03.png" alt="">
+    <img src="works/logo/04.png" alt="">
+    <img src="works/logo/05.png" alt="">
+    <img src="works/logo/06.png" alt="">
 </div>
 <div id="img">
-    <img src="works/1.jpg" alt="">
+    <img src="works/01.jpg" alt="">
 </div>
 <a href="index.html" id="back">返回首页</a>
 </body>
@@ -78,8 +73,7 @@
     };
     for(let i = 0;i<imgs.length;i++){
         imgs[i].onclick=function(){
-            var num= Number(i)+1;
-           
+            var num= "0"+(Number(i)+1);
             console.log(num);
             img.innerHTML='';
             img.innerHTML='<img src="works/'+num+'.jpg" alt="">';
