@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33e7a67e-9c85-4e7c-81cd-245e7ba4c336" name="默认的" comment="work.html&#10;">
+    <list default="true" id="33e7a67e-9c85-4e7c-81cd-245e7ba4c336" name="默认的" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zsyresume.pdf" afterPath="$PROJECT_DIR$/zsyresume.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ying0715.githuib.io.iws" />
@@ -49,8 +50,8 @@
       <file leaf-file-name="works.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/works.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+            <state relative-caret-position="495">
+              <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -152,38 +153,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ying0715.githuib.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ying0715.githuib.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ying0715.githuib.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ying0715.githuib.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="999" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -261,7 +230,7 @@
       <option name="presentableId" value="Default" />
       <updated>1524023214715</updated>
       <workItem from="1524023216254" duration="7100000" />
-      <workItem from="1524105751539" duration="4868000" />
+      <workItem from="1524105751539" duration="5265000" />
     </task>
     <task id="LOCAL-00001" summary="github更新2">
       <created>1524023370128</created>
@@ -326,11 +295,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524110814582</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="work.html&#10;">
+      <created>1524110831702</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1524110831702</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11968000" />
+    <option name="totallyTimeSpent" value="12365000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -375,10 +351,10 @@
     <MESSAGE value="图片" />
     <MESSAGE value="&quot;works/'+num+'.jpg&quot;" />
     <MESSAGE value="图标替换" />
-    <MESSAGE value="work.html&#10;" />
     <MESSAGE value="commit&#10;" />
     <MESSAGE value="pdf" />
-    <option name="LAST_COMMIT_MESSAGE" value="pdf" />
+    <MESSAGE value="work.html&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="work.html&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -433,8 +409,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/works.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="66" column="14" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+        <state relative-caret-position="495">
+          <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
           <folding />
         </state>
       </provider>
